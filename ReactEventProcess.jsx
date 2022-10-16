@@ -24,7 +24,8 @@ export default class ReactEventProcess extends Component{
               <input ref={this.myRef}  type="text" />  
               <button onClick={this.showData}>dianji1</button>
              <input type="text" />
-             <input onBlur={this.showData2} type="text" />
+             <input onBlur={this.showData2} type
+             ="text" />
              {/* 发生事件的元素就是你要操作的元素可以省略ref */}
              </div>
         )
