@@ -1,5 +1,5 @@
 import React,{Component} from "react"
-export default class getDerivedStateFromProps extends Component{
+export default class getDerivedStateFrom extends Component{
     constructor(props){
         super(props)
         console.log("constructor");

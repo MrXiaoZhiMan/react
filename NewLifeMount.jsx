@@ -19,6 +19,7 @@ export default class NewLifeMount extends Component{
     // 也可以进行判断 然后在决定要用state还是这个构子 
     // 使用概率极低 应用场景是你的state值完全来自于props就可以使用它
     // 这种场景还可以用构造器 他也可以接收到props直接就可以给state
+    // 相当于state的替换者
     }
     add=()=>{
         const {count} = this.state
